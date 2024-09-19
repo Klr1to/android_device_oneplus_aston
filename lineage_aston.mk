@@ -34,7 +34,7 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
 # e.g. property_override("ro.rising.chipset", "Snapdragon 870 5G");
 PRODUCT_BUILD_PROP_OVERRIDES += \
     RISING_CHIPSET="Snapdragon 8 Gen 2"
-    RISING_MAINTAINER="Weaponmasterjax"
+    RISING_MAINTAINER="Klr1to"
 
 TARGET_ENABLE_BLUR := true
 
@@ -126,8 +126,8 @@ PRODUCT_PACKAGES += \
 
 
 
-RISING_MAINTAINER := Weaponmasterjax
+RISING_MAINTAINER := Klr1to
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    RISING_MAINTAINER="Weaponmasterjax"		
+    RISING_MAINTAINER="Klr1to"		
 
 BUILD_FINGERPRINT := OnePlus/CPH2609/OP5D35L1:14/TP1A.220905.001/U.R4T3.19135c3-17dcf-a29fb:user/release-keys
