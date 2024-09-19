@@ -15,9 +15,6 @@ TARGET_OTA_ASSERT_DEVICE := OP5CF9L1,OP5D35L1
 # Display
 TARGET_SCREEN_DENSITY := 450
 
-# Kernel
-TARGET_KERNEL_CONFIG += vendor/oplus/aston.config
-
 # Kernel modules
 BOARD_SYSTEM_KERNEL_MODULES_LOAD := $(strip $(shell cat $(DEVICE_PATH)/modules.load.system_dlkm))
 BOARD_VENDOR_KERNEL_MODULES_BLOCKLIST_FILE := $(DEVICE_PATH)/modules.blocklist

@@ -175,8 +175,6 @@ stm_console.ko
 stm_ftrace.ko
 snd-usb-audio-qmi.ko
 snd-soc-hdmi-codec.ko
-cfg80211.ko
-mac80211.ko
 qrtr-smd.ko
 qrtr-mhi.ko
 qrtr-gunyah.ko
