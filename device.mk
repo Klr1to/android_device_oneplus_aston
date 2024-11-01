@@ -30,7 +30,11 @@ PRODUCT_SYSTEM_PROPERTIES += \
 
 # IR
 PRODUCT_COPY_FILES += \
-    prebuilts/vndk/v33/arm64/arch-arm64-armv8-a/shared/vndk-core/android.hardware.ir-V1-ndk.so:$(TARGET_COPY_OUT_ODM)/lib64/android.hardware.ir-V1-ndk.so
+    frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_ODM)/etc/permissions/android.hardware.consumerir.xml
+
+PRODUCT_PACKAGES += \
+    android.hardware.ir-service.oplus \
+    consumerir.default
 
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
